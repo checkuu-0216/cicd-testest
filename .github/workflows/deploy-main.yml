@@ -19,7 +19,7 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          project: nbc.docker/cicd
+          project: corb37/cicd-testest
           stage: main
           yaml: |
             name: cicd
